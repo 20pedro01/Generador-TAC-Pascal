@@ -9,7 +9,7 @@ Un compilador parcial y visualizador de **Código de Tres Direcciones (TAC)** pa
 
 ---
 
-## 🧠 Arquitectura del Sistema
+## 🧠 Arquitectura del sistema
 
 El generador sigue un diseño modular y desacoplado, garantizando que cada fase del pipeline de compilación sea independiente y robusta.
 
@@ -24,7 +24,7 @@ graph TD
     G --> H[Simulador Web Interactivo]
 ```
 
-### Componentes Clave:
+### Componentes clave:
 *   **AST Walker:** Recorre el árbol de sintaxis respetando estrictamente la jerarquía de operadores matemáticos y lógicos de Pascal.
 *   **Manager System:** Cuenta con un `TempManager` para variables temporales (`t1, t2...`) y un `LabelManager` para el control de saltos lógicos (`L1, L2...`).
 *   **Peephole Optimizer:** Aplica técnicas de *Jump Threading* para compactar el código intermedio, eliminando saltos redundantes y etiquetas huérfanas.
@@ -32,7 +32,7 @@ graph TD
 
 ---
 
-## 🚀 Características Principales
+## 🚀 Características principales
 
 *   **Generación de TAC Estricto:** Cada instrucción posee un máximo de tres operandos, ideal para el aprendizaje de arquitectura de computadoras.
 *   **Control de Flujo Avanzado:** Soporte total para `IF-ELSE`, bucles `WHILE`, `FOR` y llamadas a subrutinas con pasaje de parámetros por pila.
@@ -45,7 +45,7 @@ graph TD
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📂 Estructura del proyecto
 
 ```text
 /
@@ -63,7 +63,7 @@ graph TD
 
 ---
 
-## 🛠️ Instalación y Uso
+## 🛠️ Instalación y uso
 
 ### Prerrequisitos:
 *   Servidor web con soporte para **PHP 8.x** (WAMP, XAMPP, Laragon).
@@ -92,4 +92,4 @@ graph TD
 
 ---
 
-&copy; Copyright 2026 - Equipo Penguin 🐧. Desarrollado con pasión por la arquitectura de compiladores.
+&copy; Copyright 2026 - Equipo Penguin 🐧. Desarrollado para Lenguajes y Autómatas II.
