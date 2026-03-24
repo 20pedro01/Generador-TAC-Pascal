@@ -9,7 +9,7 @@ Un compilador parcial y visualizador de **Código de Tres Direcciones (TAC)** pa
 
 ---
 
-## 🧠 Arquitectura del Sistema
+## 🧠 Arquitectura del sistema
 
 El generador sigue un diseño modular y desacoplado, garantizando que cada fase del pipeline de compilación sea independiente y robusta.
 
@@ -32,7 +32,7 @@ graph TD
 
 ---
 
-## 🚀 Características Principales
+## 🚀 Características principales
 
 *   **Generación de TAC Estricto:** Cada instrucción posee un máximo de tres operandos, ideal para el aprendizaje de arquitectura de computadoras.
 *   **Control de Flujo Avanzado:** Soporte total para `IF-ELSE`, bucles `WHILE`, `FOR` y llamadas a subrutinas con pasaje de parámetros por pila.
@@ -45,7 +45,7 @@ graph TD
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📂 Estructura del proyecto
 
 ```text
 /
