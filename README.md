@@ -83,7 +83,7 @@ graph TD
 | **Pedro Cauich Pat** | Arquitectura Back-End & TAC Generator |
 | **Brenda Chan Xooc** | Arquitectura Front-End & UX/UI |
 | **Danneshe Corona Noh** | QA & Pruebas de Diagnóstico |
-| **Karla Cristina Pat Canche** | Documentación Técnica & Manual de Usuario |
+| **Karla Cristina Pat Canche** | Documentación técnica & manual de usuario |
 
 ### Docente
 **Maestro José Leonel Pech May**
