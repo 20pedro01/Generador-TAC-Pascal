@@ -24,7 +24,7 @@ graph TD
     G --> H[Simulador Web Interactivo]
 ```
 
-### Componentes Clave:
+### Componentes clave:
 *   **AST Walker:** Recorre el árbol de sintaxis respetando estrictamente la jerarquía de operadores matemáticos y lógicos de Pascal.
 *   **Manager System:** Cuenta con un `TempManager` para variables temporales (`t1, t2...`) y un `LabelManager` para el control de saltos lógicos (`L1, L2...`).
 *   **Peephole Optimizer:** Aplica técnicas de *Jump Threading* para compactar el código intermedio, eliminando saltos redundantes y etiquetas huérfanas.
@@ -92,4 +92,4 @@ graph TD
 
 ---
 
-&copy; Copyright 2026 - Equipo Penguin 🐧. Desarrollado con pasión por la arquitectura de compiladores.
+&copy; Copyright 2026 - Equipo Penguin 🐧. Desarrollado para Lenguajes y Autómatas II.
