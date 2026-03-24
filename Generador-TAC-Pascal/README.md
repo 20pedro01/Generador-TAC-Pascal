@@ -15,7 +15,7 @@ El generador sigue un diseño modular y desacoplado, garantizando que cada fase 
 
 ```mermaid
 graph TD
-    A[Código Pascal .pas] --> B[Anpalisis: lexer, parser y semántico]
+    A[Código Pascal .pas] --> B[Análisis: lexer, parser y semántico]
     B --> C[Árbol de Sintaxis Abstracta - AST]
     C --> D[AST Walker - DFS Postorden]
     D --> E[TAC Generator]
